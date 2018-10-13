@@ -1,12 +1,11 @@
 #!/bin/bash
 
 echo "--------Begin-------"
-#echo "Enter file name:"
 
-if [ "$1" == "exit" ]; then
-	echo "exit"
-fi
+#echo "Enter file name"
+#read filename
 
+read -p "Enter file name:" filename
 
-echo ""
+echo "$filename"
 echo "--------Done---------"
