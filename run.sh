@@ -2,10 +2,8 @@
 
 echo "--------Begin-------"
 
-#echo "Enter file name"
-#read filename
-
-read -p "Enter file name:" filename
+[ -f run.sh ] #файл существует?
+echo $? #0=да,1=нет
 
 echo "$filename"
 echo "--------Done---------"
