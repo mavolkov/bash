@@ -8,6 +8,5 @@ ip=8.8.8.8
 ping -c $num $ip
 
 
-
 echo ""
 echo "--------Done---------"
