@@ -1,11 +1,11 @@
 #!/bin/bash
 
 echo "--------Begin-------"
-echo "Enter file name:"
+#echo "Enter file name:"
 
-num=3
-ip=8.8.8.8
-ping -c $num $ip
+if [ "$1" == "exit" ]; then
+	echo "exit"
+fi
 
 
 echo ""
